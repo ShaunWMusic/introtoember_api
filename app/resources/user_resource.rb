@@ -1,5 +1,5 @@
 class UserResource < JSONAPI::Resource
-  attributes :email, :username, :password, :password_confirmation
+  attributes :email, :username, :password, :password_confirmation, :introduction
 
 # this feature hides certain attributes from json api
   def fetchable_fields
