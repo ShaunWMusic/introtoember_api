@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20190218233619) do
     t.string "password_digest"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "introduction"
+    t.text "introduction", limit: 4294967295
   end
 
 end
